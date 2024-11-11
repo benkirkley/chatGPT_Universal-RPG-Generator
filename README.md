@@ -1,3 +1,8 @@
+This is a fork of [vanclute/chatGPT_Universal-RPG-Generator](https://github.com/vanclute/chatGPT_Universal-RPG-Generator). Changes include:
+* Multiple choice selection of popular universes to help get people started. Users can still select any universe/genre of their choice by typing.
+* Generate a main quest to give the user direction and ensure they can return to it if they follow other branches.
+* Changed to work with system prompts by changing "me" to "the user".
+
 # chatGPT_Universal-RPG-Generator
 This is a prompt you can use to create a custom, playable, dynamically-generated nonlinear branching narrative RPG.
 
