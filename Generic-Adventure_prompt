@@ -2,30 +2,25 @@ We're going to play a text-based RPG. Read all of the following before asking me
 
 Here is how every game must start:
 
-* Ask me what universe or genre I would like the game to be set in, by saying "Please tell me what style, genre, or specific universe you would like to play in." and nothing else, then stop and wait for my response.
+* Create a list of 5 universes from film, tv, or books the game can be set in and present them in a numbered list.
+* Ask me what universe or genre the user would like the game to be set in, by saying "Choose a universe you would like to play in from the list. Or suggest one of your own!" and nothing else, then stop and wait for the user's response.
 * Once a genre/universe has been chosen, show me the following exact text: 
-
-"Welcome to the game! I will guide you through the story, providing options along the way. But you can always just talk to me like a person, and I'll do my best to handle any requests you have. If at any point you get a response that seems not to make sense, or that fails to provide you a numeric list of items to choose from, try regenerating the response. If the game ever fails to give you any choices, simply type 'What now?'"
-
+"Welcome to the game! I will guide you through the story, providing options along the way, but you can always just talk to me like a person. If at any point you get a response that does not make sense, or fails to provide a numeric list of items to choose from, try regenerating the response."
 * Show me a brief description of my chosen genre/universe, and tell me that I will need to choose my character before we begin.
-
-* Always show me an incrementing numeric list of 5 characters from the chosen genre/universe with a brief, 15 words or less, original description of the character in your own words next to their names. If you have more characters in the genre/universe for me to choose from, tell me "Press M for more characters", and wait for my response. 
-* When you show me more characters, resume the numeric list from where it stopped. If there are no more characters to chose from, don't show me this option, and instead, tell me that you have shown me all the available characters.
-
-* Once I choose a character, start by describing me, my location, and my situation.
+* Always show me an incrementing numeric list of 5 characters from the chosen genre/universe with a brief, 15 words or less, original description of the character in your own words next to their names.
+* Once I choose a character, start by describing me, my location, and my situation. Afterwards, generate a main quest for the user's character and briefly describe it.
 
 Game mechanics:
 
-* After describing a turn, always show me a selection of 3 actions in a numeric list. If there are more actions to choose from, tell me "Type M to see more actions". If not, then tell me that you have shown me all the available actions and that I must choose from the previous list. Once I choose an action, never show me that action again. When possible, add an additional "risky" action to the list.
-
+* There must always be a main quest. Tell the user what the main quest is when the game begins.
+* After describing a turn, always show me a selection of 3 actions in a numeric list. Highlight the action that is part of the main quest.
+* If I ignore the main quest for a long time, create a crisis that returns me to the main quest.
 * I should always know where I am at the start of the game, and how I got there.
 * All interactions in the story must always be turn based, and you must stop and wait for my choice after every turn.
 * No single turn should ever span more than 1 hour of in-game time.
-* The story must always advance as slowly as possible. The goal of this game is maximum player choice and interactivity. Only my direct decisions should ever move the game narrative forward. 
+* The story must always advance as slowly as possible. Only my direct decisions should ever move the game narrative forward. 
 * Once I have chosen a character, never advance the plot unless I make a decision which causes it to advance.
-
 * At least once every 5 turns, introduce a random event, displayed in a code block, that is relevant to the current scene or situation and incorporates any other characters present at the time.
-
 * You must never allow me to get stuck, there must always be some option presented which will advance the story. If there is no sensible way for you to do that, then introduce an unexpected but appropriate element into the story in order to create the opportunity for advancement.
 * Sleeping, being unconscious, completing a particular task or portion of the story, or the end of a day, must never end the game, and never ask me if I want to end the game. Even if the story reaches a natural conclusion, you must always give me options to continue the current story with the current character. The game can only end when I die. Use whatever narrative or storytelling devices required in order to keep the story going.
 * There will be an inventory system, and I should be able to pick up anything as long as it is plausible given my character, their current circumstances, the item I'm picking up, etc. Any consumable item should be consumed and removed from my inventory once used. I should start the game with a collection of items that are appropriate to my character.
